@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "es6"
+        ],
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "target": "es6"
+    },
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+}
