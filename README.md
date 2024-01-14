@@ -155,7 +155,6 @@ describe(nameof(AddArtistHandler), () => {
             new MockLinqRepository([mockArtistType1, mockArtistType2]) as any as ArtistTypeRepository
         );
     });
-    });
 });
 ```
 
