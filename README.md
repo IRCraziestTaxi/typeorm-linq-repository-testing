@@ -130,7 +130,7 @@ Using `MockLinqRepository` in its raw form looks like this:
 `add-artist.handler.spec.ts`
 ```ts
 import { nameof } from "ts-simple-nameof";
-import { MockLinqRepository, MockLinqRepositoryReturnResultsController } from "../../src/mock-classes";
+import { MockLinqRepository, MockLinqRepositoryReturnResultsController } from "typeorm-linq-repository-testing";
 import { Artist, ArtistType } from "../entities";
 import { ArtistRepository, ArtistTypeRepository } from "../repositories";
 import { AddArtistCommand } from "./add-artist.command";
@@ -170,7 +170,7 @@ const returnResultsController = new MockLinqRepositoryReturnResultsController<Ar
 `add-artist.handler.spec.ts`
 ```ts
 import { nameof } from "ts-simple-nameof";
-import { MockLinqRepository, MockLinqRepositoryReturnResultsController } from "../../src/mock-classes";
+import { MockLinqRepository, MockLinqRepositoryReturnResultsController } from "typeorm-linq-repository-testing";
 import { Artist, ArtistType } from "../entities";
 import { ArtistRepository, ArtistTypeRepository } from "../repositories";
 import { AddArtistCommand } from "./add-artist.command";
